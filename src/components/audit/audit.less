@@ -1,0 +1,167 @@
+@charset "UTF-8";
+.base_color{
+    background: #60a4f9;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.audit_phone_page {
+    .main {
+        background-color: #fff;
+        padding: 80px 40px 0 40px;
+
+        .next {
+            margin-top: 100px;
+        }
+
+        .audit_phone_form {
+            margin: 50px 0;
+
+            .audit_input {
+                position: relative;
+
+                .input_item {
+                    text-indent: 60px;
+                    height: 120px;
+                        input::placeholder{
+                            color: #e3e3e3;
+                            font-size: 28px;
+                        }
+                }
+
+                .phone_icon,
+                .verfiy_icon {
+                    display: inline-block;
+                    height: 100px;
+                    width: 100px;
+                    position: absolute;
+                    background: url('../../img/phone.png') no-repeat center;
+                    top: 50%;
+                    left: 0;
+                    margin-top: -50px;
+                }
+
+                .verfiy_icon {
+                    margin-top: -50px;
+                    background: url('../../img/verfiy_code.png') no-repeat center;
+                }
+
+                .verfiy_btn {
+                    color: #60a4f9;
+                    border: 1px solid #60a4f9;
+                    border-radius: 16px;
+                    position: absolute;
+                    margin-top: -30px;
+                    top: 50%;
+                    right: 10px;
+                    width: 200px;
+                }
+            }
+        }
+    }
+}
+.audit_info_page{
+    .main{
+        padding-top: 80px;
+    }
+    .title{
+        background: #f3f9fd;
+        .blue{
+            padding-top: 40px;
+            color: #60a4f9;
+            text-align: center;
+        }
+        .remark{
+            padding: 20px 0;
+            color: #ccc;
+            text-align: center;
+        }
+    }
+    .form{
+        .certificate{
+            padding-left: 30px;
+            .update{
+                float: left;
+                border: 1px dashed #eee;
+                position: relative;
+                width: 120px;
+                height: 120px;
+                .line{
+                    width: 40px;
+                    height: 40px
+                }
+                .row{
+                    border-left: 2px solid #ccc;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin-top: -20px;
+                }
+                .coll{
+                    border-top: 2px solid #ccc;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin-left: -20px;
+                }
+            }
+
+            .content{
+                float: left;
+                .bold{
+                    margin: 10px 0 0 20px;
+                    font-size: 32px;
+                    color: #333;
+                }
+                .dashed{
+                    vertical-align: bottom;
+                    margin: 0;
+                    font-size: 28px;
+                    color: #ccc;
+                }
+            }
+
+        }
+    }
+    .example{
+
+        padding: 40px;
+        background: #f3f9fd;
+        height: 400px;
+        .border{
+            position: relative;
+            height: 390px;
+            border: 1px dashed #333;
+            border-radius: 15px;
+            .example_span{
+                color: #333;
+                display: inline-block;
+                position: absolute;
+                top: 20px;
+                left: 20px;
+            }
+            .handle,.photo{
+                color: #333;
+                display: inline-block;
+                vertical-align: middle;
+                .img{
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        }
+        .notice{
+            padding-top: 20px;
+            font-size: 24px;
+            color: #ccc;
+            span{
+                color: #60a4f9;
+            }
+        }
+    }
+    .next{
+        margin: 40px;
+    }
+}
